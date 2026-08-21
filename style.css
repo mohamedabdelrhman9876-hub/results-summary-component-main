@@ -1,0 +1,165 @@
+
+
+.maincontainer {
+    min-height: 100vh;
+    background-color: #eef2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container1 {
+    width: 735px;
+    min-height: 510px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(70, 90, 150, 0.15);
+}
+
+
+.container2 {
+    width: 50%;
+    background: linear-gradient(180deg, #6739f5, #3930e9);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 42px 30px;
+}
+
+.container2 h3 {
+    font-size: 23px;
+    color: #d7d2ff;
+    margin-bottom: 36px;
+}
+
+.score {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 40px;
+    border-radius: 50%;
+    background: rgba(50, 28, 190, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #bcb8e9;
+}
+
+.score .number {
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.container2 h1 {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.container2 p {
+    color: #d6d2ff;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+
+.container3 {
+    width: 50%;
+    padding: 40px;
+}
+
+.container3 h2 {
+    color: #30384f;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.item {
+    height: 56px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.item strong {
+    color: #30384f;
+}
+
+.item small {
+    color: #8a8d9b;
+    font-weight: normal;
+}
+
+.reaction {
+    background-color: #fff5f5;
+    color: #ef6b6b;
+}
+
+.memory {
+    background-color: #fff9ee;
+    color: #e8ae3d;
+}
+
+.verbal {
+    background-color: #effbf8;
+    color: #22a889;
+}
+
+.visual {
+    background-color: #f1f1fc;
+    color: #3045b9;
+}
+
+.container3 button {
+    width: 100%;
+    height: 58px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 24px;
+    background: linear-gradient(90deg, #6838f5, #3b2de9);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container3 button:hover {
+    opacity: 0.9;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .container1 {
+        width: 60%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container2,
+    .container3 {
+        width: 60%;
+    }
+
+    .container2 {
+        border-radius: 30px 30px 0 0;
+    }
+}
+.attribution {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  background-color: #f8f9fa;
+}
